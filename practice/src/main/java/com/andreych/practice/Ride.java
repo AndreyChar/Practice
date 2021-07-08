@@ -4,51 +4,25 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.lang.Math;
 public class Ride
 {
-    double xstart;
-    double ystart;
-    double xfinish;
-    double yfinish;
-    double startPrice;
-    double perKMPrice;
-    double resPrice;
-    double km;
-
-    public Ride(double xstart, double ystart, double xfinish, double yfinish, double startPrice)
+    Order zero;
+    public Ride()
     {
-        this.xstart = xstart;
-        this.ystart = ystart;
-        this.xfinish = xfinish;
-        this.yfinish = yfinish;
-        this.startPrice = startPrice;
-        perKMPrice = 5.0;
-        setPrice();
+        zero = new Order(); //пустой заказ, служит головой списка
+        zero.next = zero;
+        zero.prev = zero;
     }
 
-    public Ride(double xfinish, double yfinish, double startPrice)
+    public void addOrder(Order order)
     {
-        this.xfinish = xfinish;
-        this.yfinish = yfinish;
-        this.startPrice = startPrice;
-        perKMPrice = 5.0;
+        order.next = zero;
+        order.prev = zero.prev;
+        zero.prev.prev = order;
+        zero.prev = order;
     }
 
-    public void setPrice()
+    public void removeOrder(Order order)
     {
-        km = Math.sqrt(Math.pow(xfinish - xstart, 2) + Math.pow(yfinish - ystart, 2));
-        resPrice = perKMPrice*km + startPrice;
-    }
-
-    public void changeFinish(double xfinish, double yfinish)
-    {
-        this.xfinish = xfinish;
-        this.yfinish = yfinish;
-        setPrice();
-    }
-
-    public void changeStart(double xstart, double ystart)
-    {
-        this.xstart = xstart;
-        this.ystart = ystart;
-        setPrice();
+        order.prev.next = order.next;
+        order.next.prev = order.prev;
     }
 }
