@@ -18,4 +18,7 @@ public class SharedRidesDaoImpl implements SharedRidesDao {
         return rides.stream().filter(ride -> ride.getRideId().equals(id)).findFirst().
                 orElseThrow(() -> new RuntimeException("ride not found"));
     }
+
+    @Override
+    public Set<Ride> getAllRides(){return rides;}
 }

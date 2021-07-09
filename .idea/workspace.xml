@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c846673-eda4-4604-8ebd-704868b81f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/DistanceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/DistanceCalculatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/SharedRidesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/SharedRidesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/impl/SharedRidesDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/impl/SharedRidesDaoImpl.java" afterDir="false" />
     </list>
-    <list id="92c34b92-e579-43fe-8b89-f907f1d45fd2" name="базовая логика" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/SharedRidesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/impl/SharedRidesDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Ride.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/PracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/PracticeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Ride.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/test/java/com/andreych/practice/PracticeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/test/java/com/andreych/practice/PracticeApplicationTests.java" afterDir="false" />
-    </list>
+    <list id="92c34b92-e579-43fe-8b89-f907f1d45fd2" name="базовая логика" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +92,7 @@
       <workItem from="1625672225988" duration="6482000" />
       <workItem from="1625728228185" duration="10484000" />
       <workItem from="1625766026769" duration="1262000" />
-      <workItem from="1625817198031" duration="2103000" />
+      <workItem from="1625817198031" duration="4658000" />
     </task>
     <servers />
   </component>

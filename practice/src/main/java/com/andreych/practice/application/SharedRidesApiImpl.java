@@ -4,7 +4,7 @@ import com.andreych.practice.dao.SharedRidesDao;
 import com.andreych.practice.domain.Order;
 import com.andreych.practice.domain.Ride;
 
-import java.util.Set;
+import java.util.*;
 
 public class SharedRidesApiImpl implements SharedRidesApi {
 
@@ -18,7 +18,14 @@ public class SharedRidesApiImpl implements SharedRidesApi {
 
     @Override
     public Set<Ride> getSupposedRides(Order order) {
-        return null;
+        Set<Ride> rides = null;
+        Set<Ride> srd = sharedRidesDao.getAllRides();
+        for(Ride r : srd)
+        {
+            List<Order> orders = r.getOrderList();
+            
+        }
+        return rides;
         //todo implement
     }
 
