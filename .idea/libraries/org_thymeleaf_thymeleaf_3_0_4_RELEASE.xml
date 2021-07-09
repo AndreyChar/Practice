@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="org.thymeleaf:thymeleaf:3.0.4.RELEASE" type="repository">
+    <properties maven-id="org.thymeleaf:thymeleaf:3.0.4.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-3.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl-3.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/attoparser-2.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/unbescape-1.1.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.6.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-3.0.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl-3.1.12-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.20.0-GA-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/attoparser-2.0.3.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/unbescape-1.1.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.6.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/thymeleaf-3.0.4.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl-3.1.12-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.20.0-GA-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/attoparser-2.0.3.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/unbescape-1.1.4.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.6.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

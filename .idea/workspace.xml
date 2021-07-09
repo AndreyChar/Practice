@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c846673-eda4-4604-8ebd-704868b81f39" name="Default Changelist" comment="" />
+    <list default="true" id="5c846673-eda4-4604-8ebd-704868b81f39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/DistanceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/DistanceCalculatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <list id="92c34b92-e579-43fe-8b89-f907f1d45fd2" name="базовая логика" comment="">
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/SharedRidesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/impl/SharedRidesDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Ride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/PracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/PracticeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Ride.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/test/java/com/andreych/practice/PracticeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/test/java/com/andreych/practice/PracticeApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -20,19 +42,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1uzdCE6p2hNISyT7BXxYErWD61O" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/базовая_логика.patch" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.13157892" />
+    <property name="project.structure.side.proportion" value="0.2651515" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="practice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.andreych.practice.PracticeApplication" />
@@ -45,11 +98,15 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5c846673-eda4-4604-8ebd-704868b81f39" name="Default Changelist" comment="" />
+      <changelist id="92c34b92-e579-43fe-8b89-f907f1d45fd2" name="базовая логика" comment="" />
       <created>1625672222467</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625672222467</updated>
       <workItem from="1625672225988" duration="6482000" />
+      <workItem from="1625728228185" duration="10484000" />
+      <workItem from="1625766026769" duration="1262000" />
+      <workItem from="1625817198031" duration="2103000" />
     </task>
     <servers />
   </component>

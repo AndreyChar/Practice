@@ -5,5 +5,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="org.thymeleaf:thymeleaf:3.0.4.RELEASE" level="application" />
   </component>
 </module>

@@ -1,0 +1,44 @@
+package com.andreych.practice.domain;
+
+
+import java.util.List;
+import java.util.Objects;
+
+public class Ride {
+    public Ride(String rideId, List<Order> orderList) {
+        this.rideId = rideId;
+        this.orderList = orderList;
+    }
+
+    String rideId;
+    List<Order> orderList;
+
+    public String getRideId() {
+        return rideId;
+    }
+
+    public void setRideId(String rideId) {
+        this.rideId = rideId;
+    }
+
+    public List<Order> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(List<Order> orderList) {
+        this.orderList = orderList;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Ride ride = (Ride) o;
+        return Objects.equals(rideId, ride.rideId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(rideId);
+    }
+}
