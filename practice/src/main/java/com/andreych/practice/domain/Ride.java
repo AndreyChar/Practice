@@ -12,6 +12,9 @@ public class Ride {
 
     String rideId;
     List<Order> orderList;
+    double price;
+
+    public void setPrice(double price){ this.price = price; }
 
     public String getRideId() {
         return rideId;

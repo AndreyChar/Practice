@@ -7,6 +7,14 @@ public class Order {
     private Location drop;
     private Date startDateTime;
 
+    public Order(){};
+    public Order(Location pickup, Location drop, Date startDateTime)
+    {
+        this.pickup = pickup;
+        this.drop = drop;
+        this.startDateTime = startDateTime;
+    }
+
     public Location getPickup() {
         return pickup;
     }

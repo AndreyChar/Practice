@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5c846673-eda4-4604-8ebd-704868b81f39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/DistanceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/DistanceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/DistanceCalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/DistanceCalculatorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/test/java/com/andreych/practice/PracticeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/test/java/com/andreych/practice/PracticeApplicationTests.java" afterDir="false" />
+    </list>
+    <list id="4263c0ca-933a-4e1f-b473-ba0fff7275e4" name="clipboardPatchFile" comment="">
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/impl/SharedRidesDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/dao/impl/SharedRidesDaoImpl.java" afterDir="false" />
     </list>
     <list id="92c34b92-e579-43fe-8b89-f907f1d45fd2" name="базовая логика" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +43,21 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="4" changelist="5c846673-eda4-4604-8ebd-704868b81f39" />
+        <range start1="3" end1="3" start2="5" end2="6" changelist="5c846673-eda4-4604-8ebd-704868b81f39" />
+        <range start1="6" end1="7" start2="9" end2="13" changelist="4263c0ca-933a-4e1f-b473-ba0fff7275e4" />
+        <range start1="10" end1="10" start2="16" end2="21" changelist="4263c0ca-933a-4e1f-b473-ba0fff7275e4" />
+        <range start1="20" end1="21" start2="31" end2="32" changelist="5c846673-eda4-4604-8ebd-704868b81f39" />
+        <range start1="24" end1="25" start2="35" end2="35" changelist="5c846673-eda4-4604-8ebd-704868b81f39" />
+        <range start1="26" end1="42" start2="36" end2="52" changelist="5c846673-eda4-4604-8ebd-704868b81f39" />
+        <range start1="50" end1="50" start2="60" end2="61" changelist="5c846673-eda4-4604-8ebd-704868b81f39" />
+        <range start1="52" end1="52" start2="63" end2="203" changelist="5c846673-eda4-4604-8ebd-704868b81f39" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="1uzdCE6p2hNISyT7BXxYErWD61O" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,14 +82,35 @@
     <property name="project.structure.proportion" value="0.13157892" />
     <property name="project.structure.side.proportion" value="0.2651515" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="JUnit.PracticeApplicationTests.supposedRides">
+    <configuration name="PracticeApplicationTests.saveRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andreych.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.andreych.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.andreych.practice.PracticeApplicationTests" />
+      <option name="METHOD_NAME" value="saveRide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeApplicationTests.supposedRides" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andreych.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.andreych.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.andreych.practice.PracticeApplicationTests" />
+      <option name="METHOD_NAME" value="supposedRides" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,12 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PracticeApplicationTests.supposedRides" />
+        <item itemvalue="JUnit.PracticeApplicationTests.saveRide" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5c846673-eda4-4604-8ebd-704868b81f39" name="Default Changelist" comment="" />
       <changelist id="92c34b92-e579-43fe-8b89-f907f1d45fd2" name="базовая логика" comment="" />
+      <changelist id="4263c0ca-933a-4e1f-b473-ba0fff7275e4" name="clipboardPatchFile" comment="" />
       <created>1625672222467</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -90,7 +142,9 @@
       <workItem from="1625672225988" duration="6482000" />
       <workItem from="1625728228185" duration="10484000" />
       <workItem from="1625766026769" duration="1262000" />
-      <workItem from="1625817198031" duration="10826000" />
+      <workItem from="1625817198031" duration="17938000" />
+      <workItem from="1625903368561" duration="9834000" />
+      <workItem from="1626001120131" duration="445000" />
     </task>
     <servers />
   </component>

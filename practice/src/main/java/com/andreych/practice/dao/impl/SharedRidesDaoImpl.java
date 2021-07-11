@@ -3,10 +3,11 @@ package com.andreych.practice.dao.impl;
 import com.andreych.practice.dao.SharedRidesDao;
 import com.andreych.practice.domain.Ride;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class SharedRidesDaoImpl implements SharedRidesDao {
-    Set<Ride> rides;
+    Set<Ride> rides = new HashSet<>();
 
     @Override
     public void saveRide(Ride ride) {
@@ -20,5 +21,7 @@ public class SharedRidesDaoImpl implements SharedRidesDao {
     }
 
     @Override
-    public Set<Ride> getAllRides(){return rides;}
+    public Set<Ride> getAllRides() {
+        return rides;
+    }
 }
