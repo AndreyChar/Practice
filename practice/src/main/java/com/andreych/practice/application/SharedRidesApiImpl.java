@@ -99,9 +99,9 @@ public class SharedRidesApiImpl implements SharedRidesApi {
                 + dc.getDistance(onelat1, onelat2, onelon1, onelon2)
                 + dc.getDistance(onelat2, twolat2, onelon2, twolon2);
         results[8] = dc.getDistance(onelat1,onelat2,onelon1,onelon2);
-        //prices[6] = dc.getPrice(results[6]);
         results[9] = dc.getDistance(twolat1,twolat2,twolon1,twolon2);
         results[6] = Double.MAX_VALUE;
+        results[7] = Double.MAX_VALUE;
         if(onelat1 == twolat1 && onelon1 == twolon2)
         {
             results[6] = dc.getDistance(onelat1, onelat2, onelon1, onelon2)
