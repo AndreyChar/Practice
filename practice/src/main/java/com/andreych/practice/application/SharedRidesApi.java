@@ -11,4 +11,6 @@ public interface SharedRidesApi {
     Set<Ride> getSupposedRides(Order order);
 
     void setOrderToRide(Order order, Ride ride);
+
+    Ride findDistance(Order one, Order two);
 }

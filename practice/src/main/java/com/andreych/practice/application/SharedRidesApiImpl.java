@@ -10,7 +10,7 @@ import com.andreych.practice.domain.Ride;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-;import java.util.ArrayList;
+import java.util.ArrayList;
 
 public class SharedRidesApiImpl implements SharedRidesApi {
 
@@ -40,10 +40,9 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             {
                 ride = findDistance(orders.get(0), order);
             }
-            //setOrderToRide(order, r); //временно
             if(ride != null)
             {
-                sharedRidesDao.saveRide(ride);
+                //sharedRidesDao.saveRide(ride);
                 rides.add(ride);
             }
             orders = r.getOrderList();
@@ -58,7 +57,6 @@ public class SharedRidesApiImpl implements SharedRidesApi {
     @Override
     public void setOrderToRide(Order order, Ride ride) {
         ride.getOrderList().add(order);
-        //List<Order> newList;
         sharedRidesDao.saveRide(ride);
     }
 
@@ -74,7 +72,8 @@ public class SharedRidesApiImpl implements SharedRidesApi {
         double twolat2 = two.getDrop().getLatitude();
         double twolon2 = two.getDrop().getLongitude();
         double res = -1;
-        double[] results = new double[8];
+        double[] results = new double[10];
+        double[] prices = new double[10];
         var1s1d2s2d:
         results[0] = dc.getDistance(onelat1, onelat2, onelon1, onelon2)
                 + dc.getDistance(onelat2, twolat1, onelon2, twolon1)
@@ -99,11 +98,27 @@ public class SharedRidesApiImpl implements SharedRidesApi {
         results[5] = dc.getDistance(twolat1, onelat1, twolon1, onelon1)
                 + dc.getDistance(onelat1, onelat2, onelon1, onelon2)
                 + dc.getDistance(onelat2, twolat2, onelon2, twolon2);
-        results[6] = dc.getDistance(onelat1,onelat2,onelon1,onelon2);
-        results[7] = dc.getDistance(twolat1,twolat2,twolon1,twolon2);
+        results[8] = dc.getDistance(onelat1,onelat2,onelon1,onelon2);
+        //prices[6] = dc.getPrice(results[6]);
+        results[9] = dc.getDistance(twolat1,twolat2,twolon1,twolon2);
+        results[6] = Double.MAX_VALUE;
+        if(onelat1 == twolat1 && onelon1 == twolon2)
+        {
+            results[6] = dc.getDistance(onelat1, onelat2, onelon1, onelon2)
+                    + dc.getDistance(onelat2, twolat2, onelon2, twolon2);
+            results[7] = dc.getDistance(twolat1, twolat2, twolon1, twolon2)
+                    + dc.getDistance(twolat2, onelat2, twolon1, onelon2);
+        }
+        prices[7] = dc.getPrice(results[7]);
+        prices[0] = dc.getPrice(results[0]);
+        prices[1] = dc.getPrice(results[1]);
+        prices[2] = dc.getPrice(results[2]);
+        prices[3] = dc.getPrice(results[3]);
+        prices[4] = dc.getPrice(results[4]);
+        prices[5] = dc.getPrice(results[5]);
         min_id = 0;
         double min = results[0];
-        for(int i = 0; i < 6; i++)
+        for(int i = 0; i < 8; i++)
         {
             if(results[i] < min)
             {
@@ -191,6 +206,34 @@ public class SharedRidesApiImpl implements SharedRidesApi {
                     new Location(onelon2, onelat2,""), one.getStartDateTime());
             o3 = new Order(new Location(onelon2, onelat2, ""),
                     new Location(twolon2, twolat2,""), two.getStartDateTime());
+            ArrayList<Order> orders = new ArrayList<Order>();
+            orders.add(o1);
+            orders.add(o2);
+            orders.add(o3);
+            ride.setOrderList(orders);
+        }
+        else if(min_id == 6)
+        {
+            o1 = new Order(new Location(onelon1, onelat1, ""),
+                    new Location(onelon2, onelat2,""), one.getStartDateTime());
+            o2 = new Order(new Location(onelon2, onelat2, ""),
+                    new Location(onelon2, onelat2,""), one.getStartDateTime());
+            o3 = new Order(new Location(onelon2, onelat2, ""),
+                    new Location(twolon2, twolat2,""), two.getStartDateTime());
+            ArrayList<Order> orders = new ArrayList<Order>();
+            orders.add(o1);
+            orders.add(o2);
+            orders.add(o3);
+            ride.setOrderList(orders);
+        }
+        else if(min_id == 7)
+        {
+            o1 = new Order(new Location(twolon1, twolat1, ""),
+                    new Location(twolon2, twolat2,""), one.getStartDateTime());
+            o2 = new Order(new Location(twolon2, twolat2, ""),
+                    new Location(twolon2, twolat2,""), one.getStartDateTime());
+            o3 = new Order(new Location(twolon2, twolat2, ""),
+                    new Location(onelon2, onelat2,""), two.getStartDateTime());
             ArrayList<Order> orders = new ArrayList<Order>();
             orders.add(o1);
             orders.add(o2);
