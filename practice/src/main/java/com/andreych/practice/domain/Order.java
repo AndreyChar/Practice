@@ -6,6 +6,7 @@ public class Order {
     private Location pickup;
     private Location drop;
     private Date startDateTime;
+    private double distance;
 
     public Order(){};
     public Order(Location pickup, Location drop, Date startDateTime)
@@ -37,5 +38,15 @@ public class Order {
 
     public void setStartDateTime(Date startDateTime) {
         this.startDateTime = startDateTime;
+    }
+
+    public void setDistance(double distance)
+    {
+        this.distance = distance;
+    }
+
+    public double getDistance()
+    {
+        return distance;
     }
 }

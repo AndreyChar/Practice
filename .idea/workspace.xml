@@ -5,18 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c846673-eda4-4604-8ebd-704868b81f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/resources/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/InputView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/adapter/dto/NewOrderDtoRq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/InputClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/InputClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Path.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/PracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/PracticeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/Vertex.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/application/SharedRidesApiImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/templates/NewPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/resources/templates/NewPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/domain/Ride.java" afterDir="false" />
     </list>
     <list id="4263c0ca-933a-4e1f-b473-ba0fff7275e4" name="clipboardPatchFile" comment="" />
+    <list id="20932e88-653a-4a49-831a-a4f7ad740884" name="controller method newRide" comment="">
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/adapter/controller/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/adapter/dto/NewRideDtoRq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/andreych/practice/InputClass.java" beforeDir="false" />
+    </list>
     <list id="92c34b92-e579-43fe-8b89-f907f1d45fd2" name="базовая логика" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +75,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/practice/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/controller_method_newRide.patch" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.13157892" />
     <property name="project.structure.side.proportion" value="0.2651515" />
@@ -157,6 +170,7 @@
       <changelist id="5c846673-eda4-4604-8ebd-704868b81f39" name="Default Changelist" comment="" />
       <changelist id="92c34b92-e579-43fe-8b89-f907f1d45fd2" name="базовая логика" comment="" />
       <changelist id="4263c0ca-933a-4e1f-b473-ba0fff7275e4" name="clipboardPatchFile" comment="" />
+      <changelist id="20932e88-653a-4a49-831a-a4f7ad740884" name="controller method newRide" comment="" />
       <created>1625672222467</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -168,7 +182,9 @@
       <workItem from="1625903368561" duration="9834000" />
       <workItem from="1626001120131" duration="2725000" />
       <workItem from="1626084539095" duration="3217000" />
-      <workItem from="1626163672137" duration="23630000" />
+      <workItem from="1626163672137" duration="25329000" />
+      <workItem from="1626340911059" duration="11120000" />
+      <workItem from="1626435979472" duration="641000" />
     </task>
     <servers />
   </component>

@@ -13,6 +13,21 @@ public class Ride {
     String rideId;
     List<Order> orderList;
     double price;
+    double distance;
+
+    public void setDistance(double...distances)
+    {
+        distance = 0;
+        for(double d : distances)
+        {
+            distance += d;
+        }
+    }
+
+    public double getDistance()
+    {
+        return distance;
+    }
 
     public void setPrice(double price){ this.price = price; }
 

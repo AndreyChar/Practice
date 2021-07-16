@@ -140,6 +140,7 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             orders.add(o1);
             orders.add(o2);
             orders.add(o3);
+            ride.setDistance(results[min_id]);
             ride.setOrderList(orders);
         }
         else if(min_id == 1)
@@ -154,6 +155,7 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             orders.add(o1);
             orders.add(o2);
             orders.add(o3);
+            ride.setDistance(results[min_id]);
             ride.setOrderList(orders);
         }
         else if(min_id == 2)
@@ -168,6 +170,9 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             orders.add(o1);
             orders.add(o2);
             orders.add(o3);
+            ride.setDistance(results[min_id]);
+            double price = dc.getPrice(results[min_id]);
+            ride.setPrice(price);
             ride.setOrderList(orders);
         }
         else if(min_id == 3)
@@ -182,6 +187,9 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             orders.add(o1);
             orders.add(o2);
             orders.add(o3);
+            ride.setDistance(results[min_id]);
+            double price = dc.getPrice(results[min_id]);
+            ride.setPrice(price);
             ride.setOrderList(orders);
         }
         else if(min_id == 4)
@@ -196,6 +204,9 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             orders.add(o1);
             orders.add(o2);
             orders.add(o3);
+            ride.setDistance(results[min_id]);
+            double price = dc.getPrice(results[min_id]);
+            ride.setPrice(price);
             ride.setOrderList(orders);
         }
         else if(min_id == 5)
@@ -210,6 +221,9 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             orders.add(o1);
             orders.add(o2);
             orders.add(o3);
+            ride.setDistance(results[min_id]);
+            double price = dc.getPrice(results[min_id]);
+            ride.setPrice(price);
             ride.setOrderList(orders);
         }
         else if(min_id == 6)
@@ -224,6 +238,9 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             orders.add(o1);
             orders.add(o2);
             orders.add(o3);
+            ride.setDistance(results[min_id]);
+            double price = dc.getPrice(results[min_id]);
+            ride.setPrice(price);
             ride.setOrderList(orders);
         }
         else if(min_id == 7)
@@ -238,6 +255,9 @@ public class SharedRidesApiImpl implements SharedRidesApi {
             orders.add(o1);
             orders.add(o2);
             orders.add(o3);
+            ride.setDistance(results[min_id]);
+            double price = dc.getPrice(results[min_id]);
+            ride.setPrice(price);
             ride.setOrderList(orders);
         }
         return ride;
